@@ -36,5 +36,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Amano.ttf</string>
+		<string>Amelia BT.ttf</string>
+		<string>Wzk.ttf</string>
+	</array>
 </dict>
 </plist>

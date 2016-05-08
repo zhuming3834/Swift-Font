@@ -14,6 +14,14 @@
 		C301D5C61CDEFC5800DD7382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C301D5C41CDEFC5800DD7382 /* LaunchScreen.storyboard */; };
 		C301D5D11CDEFC5800DD7382 /* Swift_FontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301D5D01CDEFC5800DD7382 /* Swift_FontTests.swift */; };
 		C301D5DC1CDEFC5800DD7382 /* Swift_FontUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C301D5DB1CDEFC5800DD7382 /* Swift_FontUITests.swift */; };
+		C301D5ED1CDEFC9A00DD7382 /* Amano.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C301D5EB1CDEFC9A00DD7382 /* Amano.ttf */; };
+		C301D5EE1CDEFC9A00DD7382 /* Amelia BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C301D5EC1CDEFC9A00DD7382 /* Amelia BT.ttf */; };
+		C301D5EF1CDEFD4A00DD7382 /* Amano.ttf in Sources */ = {isa = PBXBuildFile; fileRef = C301D5EB1CDEFC9A00DD7382 /* Amano.ttf */; };
+		C301D5F01CDEFD4A00DD7382 /* Amelia BT.ttf in Sources */ = {isa = PBXBuildFile; fileRef = C301D5EC1CDEFC9A00DD7382 /* Amelia BT.ttf */; };
+		C37D780D1CDF260E00EAF226 /* Wzk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D780C1CDF260E00EAF226 /* Wzk.ttf */; };
+		C37D780E1CDF262800EAF226 /* Wzk.ttf in Sources */ = {isa = PBXBuildFile; fileRef = C37D780C1CDF260E00EAF226 /* Wzk.ttf */; };
+		C37D78131CDF288100EAF226 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D78111CDF288100EAF226 /* NextViewController.m */; };
+		C37D78141CDF288100EAF226 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37D78121CDF288100EAF226 /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,13 @@
 		C301D5D71CDEFC5800DD7382 /* Swift-FontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-FontUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C301D5DB1CDEFC5800DD7382 /* Swift_FontUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_FontUITests.swift; sourceTree = "<group>"; };
 		C301D5DD1CDEFC5800DD7382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C301D5EB1CDEFC9A00DD7382 /* Amano.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amano.ttf; sourceTree = "<group>"; };
+		C301D5EC1CDEFC9A00DD7382 /* Amelia BT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amelia BT.ttf"; sourceTree = "<group>"; };
+		C37D780C1CDF260E00EAF226 /* Wzk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wzk.ttf; sourceTree = "<group>"; };
+		C37D780F1CDF288100EAF226 /* Swift-Font-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Font-Bridging-Header.h"; sourceTree = "<group>"; };
+		C37D78101CDF288100EAF226 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		C37D78111CDF288100EAF226 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		C37D78121CDF288100EAF226 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +112,17 @@
 		C301D5BA1CDEFC5800DD7382 /* Swift-Font */ = {
 			isa = PBXGroup;
 			children = (
+				C301D5EA1CDEFC8100DD7382 /* Fonts */,
 				C301D5BB1CDEFC5800DD7382 /* AppDelegate.swift */,
 				C301D5BD1CDEFC5800DD7382 /* ViewController.swift */,
+				C37D78101CDF288100EAF226 /* NextViewController.h */,
+				C37D78111CDF288100EAF226 /* NextViewController.m */,
+				C37D78121CDF288100EAF226 /* NextViewController.xib */,
 				C301D5BF1CDEFC5800DD7382 /* Main.storyboard */,
 				C301D5C21CDEFC5800DD7382 /* Assets.xcassets */,
 				C301D5C41CDEFC5800DD7382 /* LaunchScreen.storyboard */,
 				C301D5C71CDEFC5800DD7382 /* Info.plist */,
+				C37D780F1CDF288100EAF226 /* Swift-Font-Bridging-Header.h */,
 			);
 			path = "Swift-Font";
 			sourceTree = "<group>";
@@ -123,6 +143,16 @@
 				C301D5DD1CDEFC5800DD7382 /* Info.plist */,
 			);
 			path = "Swift-FontUITests";
+			sourceTree = "<group>";
+		};
+		C301D5EA1CDEFC8100DD7382 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C301D5EB1CDEFC9A00DD7382 /* Amano.ttf */,
+				C301D5EC1CDEFC9A00DD7382 /* Amelia BT.ttf */,
+				C37D780C1CDF260E00EAF226 /* Wzk.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C301D5C61CDEFC5800DD7382 /* LaunchScreen.storyboard in Resources */,
+				C301D5ED1CDEFC9A00DD7382 /* Amano.ttf in Resources */,
+				C301D5EE1CDEFC9A00DD7382 /* Amelia BT.ttf in Resources */,
+				C37D780D1CDF260E00EAF226 /* Wzk.ttf in Resources */,
+				C37D78141CDF288100EAF226 /* NextViewController.xib in Resources */,
 				C301D5C31CDEFC5800DD7382 /* Assets.xcassets in Resources */,
 				C301D5C11CDEFC5800DD7382 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37D780E1CDF262800EAF226 /* Wzk.ttf in Sources */,
+				C37D78131CDF288100EAF226 /* NextViewController.m in Sources */,
+				C301D5EF1CDEFD4A00DD7382 /* Amano.ttf in Sources */,
+				C301D5F01CDEFD4A00DD7382 /* Amelia BT.ttf in Sources */,
 				C301D5BE1CDEFC5800DD7382 /* ViewController.swift in Sources */,
 				C301D5BC1CDEFC5800DD7382 /* AppDelegate.swift in Sources */,
 			);
@@ -402,10 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Swift-Font/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hgdq.Swift-Font";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-Font/Swift-Font-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +454,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Swift-Font/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hgdq.Swift-Font";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-Font/Swift-Font-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +528,7 @@
 				C301D5E21CDEFC5800DD7382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C301D5E31CDEFC5800DD7382 /* Build configuration list for PBXNativeTarget "Swift-FontTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +537,7 @@
 				C301D5E51CDEFC5800DD7382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C301D5E61CDEFC5800DD7382 /* Build configuration list for PBXNativeTarget "Swift-FontUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +546,7 @@
 				C301D5E81CDEFC5800DD7382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
